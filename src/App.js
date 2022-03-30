@@ -34,7 +34,7 @@ function App() {
 					//isStopped={state}
 				/>
 			) : (
-				<div className="w-full bg-back">
+				<div className="w-full   bg-back">
 					<Navbar />
 					<Home />
 					<About />

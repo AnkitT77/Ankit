@@ -8,9 +8,9 @@ export default function Home() {
 			<div className="relative w-full h-screen " id="#home">
 				<Particle />
 			
-				<div className="absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 sm:max-w-lg items-center  flex flex-col text-center gap-y-8">
+				<div className="absolute z-10  top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full sm:max-w-xl items-center  flex flex-col text-center gap-y-8">
 					<h1 className=" text-5xl sm:text-7xl font-display  select-none text-white">
-						<Splittext text="Hi, I'm, Dharmik Web developer"></Splittext>
+						<Splittext text="Hi, I'm, Ankit Android developer"></Splittext>
 					</h1>
 					<a
 						href="../Dharmik.pdf"
