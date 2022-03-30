@@ -70,11 +70,11 @@ function Description({ object }) {
 						))}
 					</div>
 					<div className="flex gap-x-3">
-						<a href={object.githubLink} target="_blank" rel="noreferrer">
+						<a href={object.githubLink} >
 							<FaGithub size={25} color={"white"} />
 						</a>
 						{object.link && (
-							<a href={object.link} target="_blank" rel="noreferrer">
+							<a href={object.link} >
 								<BiLinkExternal size={25} color={"white"} />
 							</a>
 						)}
@@ -94,11 +94,11 @@ function Description({ object }) {
 					))}
 				</div>
 				<div className="flex gap-x-2">
-					<a href={object.githubLink} target="_blank" rel="noreferrer">
+					<a href={object.githubLink} >
 						<FaGithub size={25} color={"white"} />
 					</a>
 					{object.link && (
-						<a href={object.link} target="_blank" rel="noreferrer">
+						<a href={object.link} >
 							<BiLinkExternal size={25} color={"white"} />
 						</a>
 					)}

@@ -13,7 +13,8 @@ export default function Home() {
 						<Splittext text="Hi, I'm, Ankit Android developer"></Splittext>
 					</h1>
 					<a
-						href="../Dharmik.pdf"
+						// href="/"
+						href="../Ankit.pdf"
 						download
 						className="hover:bg-text transition duration-150 ease-in hover:text-back  px-5 py-3 text-text border border-text max-w-xs font-body tracking-wide"
 					>

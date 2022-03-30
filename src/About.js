@@ -27,7 +27,7 @@ export default function About() {
 		}
 	}, [animation, inView]);
 	return (
-		<div className="py-16 md:px-16 px-5 max-w-7xl mx-auto w-full " id="about" ref={ref}>
+		<div className="py-16 md:px-16 px-5 " id="about" ref={ref}>
 			<motion.h1
 				className=" text-6xl font-display  select-none text-text"
 				animate={animation}
@@ -64,7 +64,7 @@ export default function About() {
 				<div className="w-full  flex justify-center">
 					<div className="h-80 w-96">
 						<img
-							src="../bg.jpg"
+							src="../background.svg"
 							className="w-full h-full"
 							alt="hero back"
 						></img>

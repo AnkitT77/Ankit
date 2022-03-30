@@ -34,7 +34,7 @@ function App() {
 					//isStopped={state}
 				/>
 			) : (
-				<div className="w-full   bg-back">
+				<div className="w-full bg-back">
 					<Navbar />
 					<Home />
 					<About />
@@ -48,3 +48,6 @@ function App() {
 
 export default App;
 
+
+// md:px-16 px-5 max-w-7xl mx-auto w-full
+// max-w-screen-2xl mx-auto
