@@ -20,7 +20,7 @@ export default function Footer() {
 							<FaGithub size={25} color={"white"} />
 						</div>
 					</a>
-					<a href="https://www.linkedin.com/mwlite/in/ankit-tiwari-1b087210/">
+					<a href="https://www.linkedin.com/in/ankit-tiwari-1b0a87210/">
 						<div className="p-3 rounded-full flex justify-center items-center bg-back border border-gray-700 hover:bg-blue-700 transform hover:scale-110">
 							<FaLinkedinIn size={25} color={"white"} />
 						</div>
